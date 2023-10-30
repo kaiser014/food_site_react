@@ -1,0 +1,44 @@
+.top-header{
+    background-color: #ff9900;
+    padding: 10px 0;
+}
+.top-header-contactinfo{
+    padding: 0;
+    margin: 0;
+    text-align: end;
+}
+.top-header-contactinfo li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+.top-header-contactinfo li:last-child{
+    margin-right: 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .top-header-contactinfo{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .top-header-contactinfo li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

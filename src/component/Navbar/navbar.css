@@ -1,0 +1,25 @@
+.brand-icon{
+    width: 60px;
+}
+.navbar-section .navbar-link{
+    color: #fff;
+    font-weight: 500;
+}
+.navbar-section .navbar-link:hover{
+    color: #ff9900;
+}
+.header-button{
+    background-color: #ff9900;
+    border: none;
+    border-radius: 50px;
+    padding: 6px 20px;
+    font-size: 17px;
+}
+.header-button:hover{
+    background-color: #cf7d02;
+}
+.btn-check:checked+.header-button, .header-button.active, .header-button.show, .header-button:first-child:active, :not(.btn-check)+.header-button:active {
+    color: #fff;
+    background-color: #cf7d02;
+    border-color: none;
+}

@@ -1,0 +1,33 @@
+.service-item-image{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.service-item-image img{
+    width: 50px;
+}
+.service-item-content{
+    text-align: center;
+}
+.service-item-content h5{
+    color: #232323;
+    font-weight: 600;
+    padding: 5px 0;
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.service-item-content h5::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background-color: #ff9900;
+}
+.service-item-content p{
+    color: #4b4b4b;
+    font-size: 15px;
+    font-weight: 500;
+}
