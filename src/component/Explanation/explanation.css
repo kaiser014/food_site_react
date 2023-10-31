@@ -1,0 +1,127 @@
+.explanation-section{
+    padding: 70px 0;
+    background-image: url(../../../public/assets/images/menu-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.explanation-three-item{
+    margin-top: 30px;
+}
+.explanation-item{
+    margin: 10px 20px;
+}
+.explanation-img-hold{
+    text-align: center;
+    margin-bottom: -40px;
+}
+.explanation-img-hold img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 8px solid #ff9900;
+}
+.explanation-item h3{
+    font-size: 18px;
+    color: #232323;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.explanation-section .section-heading .primary-color{
+    color: #fff;
+}
+.explanation-section .section-heading h2::after{
+    background-color: #fff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .explanation-section{
+        padding: 40px 0;
+    }
+    .explanation-three-item {
+        margin-top: 15px;
+    }
+    .explanation-img-hold img{
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        border: 8px solid #ff9900;
+    }
+    .explanation-item h3{
+        font-size: 17px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .explanation-section{
+        padding: 40px 0;
+    }
+    .explanation-three-item {
+        margin-top: 15px;
+    }
+    .explanation-img-hold img{
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        border: 8px solid #ff9900;
+    }
+    .explanation-item h3{
+        font-size: 17px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .explanation-section{
+        padding: 50px 0;
+    }
+    .explanation-three-item {
+        margin-top: 10px;
+    }
+    .explanation-img-hold img{
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        border: 8px solid #ff9900;
+    }
+    .explanation-item h3{
+        font-size: 17px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .explanation-section{
+        padding: 50px 0;
+    }
+    .explanation-img-hold img{
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        border: 8px solid #ff9900;
+    }
+    .explanation-item h3{
+        font-size: 17px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .explanation-section{
+        padding: 70px 0;
+    }
+    .explanation-img-hold img{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: 8px solid #ff9900;
+    }
+    .explanation-item h3{
+        font-size: 18px;
+    }
+}

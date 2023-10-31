@@ -1,0 +1,64 @@
+.food-week-item{
+    margin: 12px 0;
+}
+.foodweek-item-image{
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.foodweek-item-image img{
+    width: 100%;
+}
+.foodweek-item-content{
+    margin-top: 12px;
+    background-color: rgba(255, 153, 0, 0.2);
+    border-radius: 5px;
+    padding: 12px;
+}
+.foodweek-item-content h4{
+    color: #232323;
+    font-size: 20px;
+    font-weight: 600;
+}
+.food-week-rating{
+    padding: 6px 0;
+}
+.food-week-rating span{
+    margin-right: 2px;
+}
+.starratingActive{
+    color: #ff9900;
+    transition: .3s all ease-in-out;
+}
+.starratingInActive{
+    color: #6e6e6e;
+}
+.rating-review-count{
+    color: #4b4b4b;
+    font-weight: 500;
+    font-size: 15px;
+}
+.foodweek-item-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foodweek-item-bottom h5{
+    font-weight: 600;
+    color: #232323;
+    font-size: 18px;
+}
+.foodweek-item-content:hover{
+    background-color: rgba(255, 153, 0, 1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .3s all ease-in-out;
+}
+.foodweek-item-content:hover .starratingActive{
+    color: #fff;
+    transition: .3s all ease-in-out;
+}
+.foodweek-item-content:hover .food-week-btn{
+    background-color: #fff;
+    color: #232323;
+    transition: .3s all ease-in-out;
+}

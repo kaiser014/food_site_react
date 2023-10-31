@@ -1,0 +1,116 @@
+.section-heading h5{
+    color: #232323;
+    font-size: 22px;
+    font-weight: 600;
+}
+.section-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    padding: 5px 0;
+    padding-bottom: 15px;
+}
+.section-heading h2::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: #232323;
+}
+.section-heading p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #4b4b4b;
+    margin-top: 15px;
+    margin-bottom: 0px !important;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .section-heading h5{
+        font-size: 18px;
+    }
+    .section-heading h2{
+        font-size: 28px;
+    }
+    .section-heading h2::after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70px;
+        height: 3px;
+    }
+    .section-heading p{
+        font-size: 15px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .section-heading h5{
+        font-size: 22px;
+    }
+    .section-heading h2{
+        font-size: 30px;
+    }
+    .section-heading h2::after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 3px;
+    }
+    .section-heading p{
+        font-size: 15px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section-heading h5{
+        font-size: 18px;
+    }
+    .section-heading h2{
+        font-size: 32px;
+    }
+    .section-heading h2::after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70px;
+        height: 3px;
+    }
+    .section-heading p{
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .section-heading h5{
+        font-size: 20px;
+    }
+    .section-heading h2::after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 3px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .section-heading h5{
+        font-size: 22px;
+    }
+}

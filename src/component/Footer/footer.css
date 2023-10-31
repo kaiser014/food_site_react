@@ -1,0 +1,84 @@
+.footer-section{
+    padding: 70px 0;
+    background-color: #1b1b1b;
+}
+.footer-logo img{
+    width: 150px;
+}
+.opening-info{
+    padding: 20px 0;
+}
+.opening-info h3{
+    font-size: 25px;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.opening-info p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.fc-info p{
+    color: #fff;
+    margin: 5px 0;
+}
+.fc-info p span{
+    color: #ff9900;
+    margin-right: 5px;
+}
+.footer-links h3{
+    color: #ff9900;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-links ul {
+    margin-bottom: 20px;
+}
+.footer-links ul li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+.footer-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links ul li a:hover{
+    color: #ff9900;
+    text-decoration: underline;
+}
+.footer-links ul li a span{
+    color: #ff9900;
+    margin-right: 5px;
+}
+.footer-newsletter h3{
+    color: #ff9900;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.newsletter-field{
+    padding: 12px 15px;
+    background-color: rgba(255,255,255,0.5);
+    border: 3px solid rgba(255,255,255,0.5);
+}
+.newsletter-field::placeholder{
+    color: #fff;
+}
+.newsletter-field:focus{
+    border: 3px solid #ff9900;
+    background-color: rgba(255,255,255,0.7);
+}
+.newsletter-btn{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.social-icon-hold li:hover .social-icon{
+    color: #ff9900;
+    transform: translateY(-3px);
+    transition: .3s all ease-in-out;
+}
